@@ -1,0 +1,2 @@
+# Halibut
+A lightweight CRM
