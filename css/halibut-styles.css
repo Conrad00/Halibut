@@ -1,0 +1,80 @@
+body {
+	background-color: #FFFFE6;
+	font-family: 'Exo 2', sans-serif;
+}
+
+#loginBox {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	width: 300px;
+	height: 400px;
+	border-radius: 15px;
+	background-color: white;
+	-webkit-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.5);
+}
+
+#loginBoxTitle {
+	text-align: center;
+	font-size: 24pt;
+	font-family: 'Exo 2', sans-serif;
+}
+
+#loginBox form {
+	display: block;
+	margin-left: 15px;
+}
+
+#loginBox input {
+	margin-bottom: 10px;
+}
+
+#loginBox button {
+	visibility: hidden;
+}
+
+#loginButton {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 5px;
+	font-size: 16pt;
+	background-color: #336600;
+	color: white;
+}
+
+.sidebar {
+	position: fixed;
+	top: 50px;
+	width: 200px;
+	height: 100%;
+	background-color: #222;
+	border-width: 0 0 1px;
+	color: white;
+	padding-bottom: 15px;
+	margin-left: -1px;
+}
+
+.sidebar-nav {
+	list-style: none;
+	margin-left: 15px;
+}
+
+.sidebar-nav li {
+	width: 129%;
+	margin-left: -30px;
+}
+
+.sidebar-nav h2 {
+	margin-bottom: 20px;
+}
+
+.pageInfo {
+	position: absolute;
+	padding-left: 200px;
+	top: 50px;
+	width: 100%;
+}
